@@ -1,0 +1,115 @@
+.recipes {
+    display: flex;
+  }
+  .recipe{
+    display: flex;
+    justify-content:space-evenly ;
+  }
+  .recipes-home{
+    margin-top: 20px;
+    width: 100%;
+  }
+  .input {
+    height: 50px;
+    width: 470px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 13px;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+  }
+  .input:hover {
+    border-bottom: 2px solid #fda4a4;
+  }
+.dropdon{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown .dropbtn {
+  background-color: #fddede;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 160px;
+}
+.dropdown:hover .dropbtn {
+  border-bottom:1px solid #fddede ;
+  background-color: white;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+}
+.dropdown-content a:hover {
+  border-bottom:1px solid #fddede ;
+  color: #000000;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.icon {
+  margin-right: 75%;
+  font-size: 35px;
+  color: #303030;
+  background-color: #fddede;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.icon:hover{
+  border:1px solid #fddede;
+  background-color: white;
+}
+.create-recipe {
+  background-color: #fddede;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: fixed;
+}
+.create-recipe:hover {
+  border-bottom:1px solid #fdd6d6 ;
+  
+}
+.create-recipe:hover {
+  background-color: #ffffff;
+}
+.recipe-main{
+  background-color: white;
+  width:97%;
+  height: auto;
+  border-radius: 5px;
+  margin-left: 15px;
+  padding: 20px;
+}
+.recipe-main0{
+  background-color: white;
+  width:97%;
+  margin-left: 15px;
+  height: 450px ;
+  border-radius: 10px;
+}

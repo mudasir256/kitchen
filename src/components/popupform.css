@@ -1,0 +1,68 @@
+.popup-heading{
+    position: absolute;
+    top: -10px;
+    left:40%;
+    color: black;
+}
+.popup{
+    background-color: rgb(85, 85, 85);
+    opacity: 0.9;
+    padding: 50px;
+    width: 70%;
+    height: 220px;
+    margin: 0px auto;
+    border-radius: 10px;
+    position: absolute;
+    top:38%;
+}
+.close{
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    left: 97%;
+    top: 3%;
+    background-color: white;
+    border-radius: 10px;
+}
+.main-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.label{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.input-data{
+    margin: 10px;
+    padding: 6px;
+    border-radius: 2px;
+border: none;
+}
+.input-for-date{
+    margin: 10px;
+    padding: 6px;
+    border-radius: 2px;
+    border: none;
+    margin-left: 22px;
+    width: 150px;
+}
+.right-form{
+    margin-top:-15px;
+}
+.browse-file{
+    border: none;
+    background-color: #ff9f9f;
+    width: 180px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.Submit-form{
+    border: none;
+    background-color:#ff9f9f ;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left:350px ;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+    .header-app-user{
+        color:#ff9f9f ;
+        text-align: center;
+        width: 100%;
+        margin-left: 280px; 
+        border-bottom: 2px solid #ff9f9f;
+        padding-bottom: 10px;
+    }
+/* appuser.css */
+.wrap-app-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 60vh;
+    background-color: rgb(255, 230, 196);
+    border-radius: 10px;
+    margin-top: 100px;
+   position: absolute;
+   left: 45%;
+  }
+  
+  .main-app-user {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center;
+    border: 1px solid #ff9f9f;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 2px 2px 5px 10px #ffb3b3;
+  }
+  
+  .app-user-name,
+  .app-user-detail {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .app-user-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 1px 2px 5px 2px rgb(255, 230, 196);
+    border: 1px solid rgb(253, 221, 175);
+  }
+  
+  .main-app-user:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .app-user-img:hover {
+    transform: scale(2.1);
+  }
+  

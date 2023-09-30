@@ -1,0 +1,43 @@
+.side-nav {
+    width: 300px;
+    background-color: #ffffff;
+    height: 600px;
+  }
+  
+  .side-button {
+
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+
+    margin: 0px;
+
+  }
+  .link-button{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .list-button {
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    color: black;
+    background-color: #dcdcdc;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius:5px ;
+  
+  }
+  
+  .list-button:hover {
+    background-color: #f5abab;
+  }
+  
+.main{
+  display: flex;
+}
+  

@@ -1,0 +1,22 @@
+.profile{
+    border-radius:50% ;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+.arrow{
+    width: 30px;
+    height: 30px; 
+    cursor: pointer;
+    
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    border-bottom:1px solid #ffa5a5  ;
+}

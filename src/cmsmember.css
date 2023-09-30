@@ -1,0 +1,77 @@
+.cms-main{
+    color: black;
+    width: 100%;
+}
+.two-btn{
+background-color: white;
+width: 95%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0px auto;
+height: 50px;
+margin-top: 10px;
+border-radius: 10px;
+}
+.Chef-Details {
+    background-color: #ffdede;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 40px;
+    margin: 10px;
+  }
+  .Chef-Details:hover {
+    border-bottom:1px solid #ff9f9f ;
+  }
+  .Chef-Details:hover {
+    background-color: #ffffff;
+  }
+  .icon-cms{
+    background-color: #ffdede;
+    margin-right: 75%;
+    font-size: 35px;
+    color: #303030;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+  .icon-cms:hover{
+    border:1px solid #f5abab;
+    background-color: white;
+  }
+  .cms-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 230, 196);
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-top:20px ;
+  }
+  .details{
+    background-color:#ffdede;
+    width: 90%;
+    height: 150px;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .details-heading{
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid rgb(142, 142, 142);
+    width: 85%;
+    margin: 0px auto;
+    
+  }
+  .details-writing{
+    margin-left: 70px;
+    padding-top: 5px;
+  }

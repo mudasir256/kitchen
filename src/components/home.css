@@ -1,0 +1,30 @@
+
+.home{
+    display: flex;
+}
+.apexcharts-canvas{
+    background-color: white;
+   margin: 20px;
+   border-radius:10px 
+}
+.chart{
+    display: flex;
+    align-items: center;
+}
+.user{
+    color: black;
+    position: absolute;
+    left:25%;
+}
+
+.home-button {
+    background-color: #ffdede;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 40px;
+    margin: 10px;
+  }
